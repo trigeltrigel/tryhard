@@ -21,7 +21,7 @@ module.exports = {
             validate: null
         }),
         headers: {
-            "Authorization": `Bot OTM0NDU2Njg4MzA2NjgzOTI1.YewWmw.CTRx-7J3C8Sm7-EOp9rpj_ZPHRQ`,
+            "Authorization": `Bot <bot token>`,
             "Content-Type": "application/json"
         }
     })
