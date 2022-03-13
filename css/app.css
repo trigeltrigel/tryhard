@@ -1,0 +1,70 @@
+@font-face {
+    font-family: 'SplatRegular';
+    src: url('/css/Splatfont2.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+* {
+    font-family: 'SplatRegular';
+}
+
+.jumbotron {
+    position: relative;
+}
+
+#userinfo img {
+    border-radius: 50%;
+    width: 60px;
+    position: absolute;
+    top: 10px;
+    right: 20px;
+    border-width:4px;
+    border-color: white;
+    border-style: solid;
+    box-shadow: 2px 2px 5px black;
+    transition: transform 250ms;
+    cursor: pointer;
+}
+
+#items_lol {
+  float: left;
+  border-sizing: inline-block;
+  height: 18px;
+}
+
+ul {
+  margin-top: 20px;
+}
+
+.discord-login-button {
+    position: absolute;
+    right: 14px;
+    top: 14px;
+}
+
+#userinfo img:hover {
+    transform: translateY(-6px);
+}
+
+.usermenu {
+    min-width: 200px;
+    margin: 6px 8px;
+    background: lightgray;
+    position: absolute;
+    right: 4px;
+    border-radius: 2%;
+    top: 0; 
+    box-shadow: 2px 2px 7px black;
+    opacity: 0.9;
+}
+
+.usermenu .item {
+    position: absolute;
+    left: 14px;
+    bottom: 14px;
+}
+
+.usermenu .item a {
+    color: black;
+}

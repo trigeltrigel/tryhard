@@ -1,0 +1,35 @@
+{
+  "secureCookie": true,
+  "token": "process.env.TOKEN",
+  "YOUTUBE_API_KEY": "AIzaSyDDGx-bPvfdyY9LPGLaCXJrEs6aFlv9q-o",
+  "SOUNDCLOUD_CLIENT_ID": "",
+  "MAX_PLAYLIST_SIZE": 10,
+  "PREFIX": "-",
+  "dashboard":"true",
+  "PRUNING": false,
+  "LOCALE": "en",
+  "STAY_TIME": 10,
+  "DEFAULT_VOLUME": 100,
+   "DMtoUnbanID":"719578187516084226",
+       "success" : "<:check:895009257689346139>",
+    "error" : "<:wrong:895007853620912160>",
+      "owner": ["719578187516084226",
+      "911620553968853012"],
+      "mongoDB":"mongodb+srv://ZEIN_TRY:Wissamzein3@cc.lia1n.mongodb.net/Data",
+      "imageLink":"https://cdn.discordapp.com/attachments/754486041494159440/776295051210129408/photo-1523821741446-edb2b68bb7a0.png",
+      "channel":"859506503982776340",
+      "unicolor":"#8015EA",
+
+
+  "discord": {
+        "client_id": "934456688306683925",
+        "client_secret": "h4fcTasGFPKMY7ETH687Paae8kDSNxmb",
+        "redirect_uri": "https://TRYHARD.zeinfarran7.repl.co/discordlogin",
+        "login_uri": "https://discord.com/api/oauth2/authorize?client_id=934456688306683925&redirect_uri=https%3A%2F%2FTRYHARD.zeinfarran7.repl.co%2Fdiscordlogin&response_type=code&scope=identify%20guilds"
+    },
+    "roles": {
+        "mod": [
+             "830396964130390037"
+        ]
+    }
+}

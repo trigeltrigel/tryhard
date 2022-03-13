@@ -1,0 +1,26 @@
+<%- include("partials/header", { bot, user, path, title: `Admin Tab`}) %>
+
+<div class="container-sm center" style="margin-top: 30px;">
+  <div class="d-grid gap-2 col-4 mx-auto">
+    <% if (alert) { %>
+      <div class="alert alert-success" role="alert">
+        <%= alert %>
+      </div>
+    <% } %>
+    <h1>Blacklist</h1>
+    <hr>
+    <form method="POST">
+      <p class="h5" style="margin-bottom: 0.5rem; margin-top: 10px;">GuildId:</p>
+      <p style="font-style: italic;" class="disabled">Blacklist a guild from the bot</p>
+      <input type="text" class="form-control" name="guildId" placeholder="Guild id.">
+
+       <p class="h5" style="margin-bottom: 0.5rem; margin-top: 10px;">GuildId:</p>
+      <p style="font-style: italic;" class="disabled">Remove a blacklist of a guild from the bot</p>
+      <input type="text" class="form-control" name="guildIDD" placeholder="Guild id.">
+      
+      <br><button type="submit" class="btn btn-secondary text-white">Save Settings</button>
+    </form>
+  </div>
+</div>
+
+      <%- include("partials/footer") %>
